@@ -1,0 +1,145 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,Helvetica, Arial, sans-serif;
+   font-size: 14px;
+}
+
+body {
+   width: 100%;
+   min-height: 100vh;
+   background-color: #fafafa;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   color: black;
+}
+
+
+img {
+   width: 300px;
+}
+
+.container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+/*======= Imagem do celular =======*/
+
+.phone img {
+   width: 300px;
+}
+
+/*=======*/
+
+.box {
+   padding: 32px;
+   display: flex;
+   align-content: space-around;
+   flex-direction: column;
+}
+
+.group {
+   border: 1px solid #dbdbdb;
+   background-color: white;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 16px 10px 20px 10px;
+}
+
+/*======= GRUPO 1 =======*/
+
+#one {
+   width: 348px;
+   height: 313px; 
+}
+
+#selfie {
+   align-self: center;
+   border: solid 1px #efefef;
+   border-radius: 100px;
+   display: block;
+   height: 84px;
+   margin-bottom: 16px;
+   margin-top: 8px;
+   width: 84px;
+
+}
+
+img#logo {
+   width: 175px;
+   margin: 36px 0 12px 0;
+}
+
+/*======= GRUPO 2 =======*/
+
+#two {
+   margin: 10px;
+   padding: 10px;
+   width: 348px;
+   height: 70px;
+   margin-bottom: 10px;
+}
+
+/*======= APP =======*/
+
+.app {
+   border: 1px solid #dbdbdb;
+   width: 350px;
+   height: 101px;
+
+   padding: 10px;
+   margin: 10px;
+   
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.download {
+   display: flex;
+   margin: 10px;
+}
+
+.app-download {
+   padding-right: 5px;
+  width: 136px;
+  height: 40px; 
+}
+
+.not-account {
+   color: #8e8e8e;
+}
+
+button {
+   padding: 5px 9px;
+   text-decoration: none;
+   background-color: #0095f6;
+   border-radius: 4px;
+   font-size: 1rem;
+   text-align: center;
+   border: none;
+
+   margin: 16px 66px 20px 66px;
+}
+
+.group a {
+   color: #fff;
+}
+
+#remove {
+   color: #0095f6; 
+   margin-bottom: 20px;
+}
+
+#btn {
+   color: #0095f6;
+}
