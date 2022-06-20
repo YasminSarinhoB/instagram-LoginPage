@@ -1,4 +1,4 @@
-# inatagram-HomePage
+# instagram-HomePage
 
 Desafio de flexbox do curso de CSS flexbox da dio com intuito de colocar em pratica tudo que foi aprendido.
 
